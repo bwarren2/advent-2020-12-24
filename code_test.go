@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestRecodsFromFile(t *testing.T) {
+func TestRecordsFromFile(t *testing.T) {
 	advent.RecordsFromFile("sample.txt")
 	advent.RecordsFromFile("input.txt")
 	// t.Fail()
